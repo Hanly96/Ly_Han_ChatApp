@@ -43,6 +43,6 @@ io.on('connection', function (socket) {
         if (index > -1) {
             users.splice(index, 1);
          }
-        io.emit('log out', {message: name, userList: users});
+        io.emit('userLogout', {message: name, userList: users});
     });
   });

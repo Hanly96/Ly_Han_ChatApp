@@ -5,9 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Chat App</title>
+    <link rel="stylesheet" href="css/main.css">
+    <script src="https://unpkg.com/vue"></script>
 </head>
 <body>
-    <div class="header"><a href="/" v-on:click.prevent="disconnect">Join Again</a></div>
-    <h2>You've been left the chat</h2>
+    <div class="heading-button"><a href="/" v-on:click.prevent="disconnect">Join Again</a></div>
+    <div id="textBox">
+        <h2>You've been away from the group chat</h2>
+    </div>
+    
 </body>
 </html>
